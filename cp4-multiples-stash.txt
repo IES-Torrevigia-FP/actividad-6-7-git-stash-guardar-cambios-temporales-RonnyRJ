@@ -1,0 +1,6 @@
+ronny@Ubu:~/Documents/dev/actividad-6-7-git-stash-guardar-cambios-temporales-RonnyRJ$ git stash list
+stash@{0}: On main: WIP login paso 4
+
+git stash apply stash@{1}
+
+Poner mensajes descriptivos a los stashes es útil porque te ayuda a recordar fácilmente qué cambios guardaste y por qué, facilitando encontrarlos y aplicarlos correctamente después.
