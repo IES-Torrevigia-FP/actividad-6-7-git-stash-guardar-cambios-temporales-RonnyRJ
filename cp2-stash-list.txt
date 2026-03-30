@@ -1,0 +1,12 @@
+ronny@Ubu:~/Documents/dev/actividad-6-7-git-stash-guardar-cambios-temporales-RonnyRJ$ git stash list
+stash@{0}: On main: WIP login pasos 1 y 2
+
+
+ac81269 Aplica hotfix urgente
+31bf24d On main: WIP login pasos 1 y 2
+fb9019c index on main: 0ed673e Define tarea principal de login
+0ed673e Define tarea principal de login
+4e32f8e add deadline
+e86c405 Initial commit
+
+Mientras hacía el hotfix, mis cambios de login quedaron pendientes porque tuve que resolver un conflicto antes de continuar con el cherry-pick.
