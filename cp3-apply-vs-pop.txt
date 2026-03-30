@@ -1,0 +1,10 @@
+##ANTES:
+
+ronny@Ubu:~/Documents/dev/actividad-6-7-git-stash-guardar-cambios-temporales-RonnyRJ$ git stash list
+stash@{0}: On main: WIP login pasos 1 y 2
+
+##DESPUÉS:
+ronny@Ubu:~/Documents/dev/actividad-6-7-git-stash-guardar-cambios-temporales-RonnyRJ$ git stash list
+
+git stash apply aplica los cambios guardados en el stash pero los deja guardados para poder usarlos otra vez.
+git stash pop aplica los cambios y además elimina ese stash de la lista, porque asume que ya no lo necesitas más.
